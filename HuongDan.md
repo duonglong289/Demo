@@ -31,4 +31,5 @@ Note : Thư viện WiringSerial.h cũng nằm trong thư mục wiringPi
 Để thực hiện điều này cần xây dựng một mạch nhỏ chuyển đổi song công hoàn toàn thành bán song công.
 - Sử dụng IC 74HC126 và 74HC125 (hoặc 74HC04)
 <img src="https://i.imgur.com/7RktWcv.jpg">
-[LinkTest](https://github.com/duonglong289/Demo/blob/master/HuongDan.md)
+
+[Github](https://github.com/duonglong289/Demo/blob/master/HuongDan.md)
