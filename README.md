@@ -12,4 +12,4 @@ Thư viện điều khiển Smart Servo MX-12W sử dụng Raspberry Pi:
 	
 **3. Hướng dẫn cài đặt thư viện và cấu hình phần cứng**
 
-[Tutorial](https://github.com/duonglong289/Demo/blob/master/HuongDan.md)
+[HuongDan.md](https://github.com/duonglong289/Demo/blob/master/HuongDan.md)
