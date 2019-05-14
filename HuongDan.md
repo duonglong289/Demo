@@ -24,4 +24,4 @@ Note : Thư viện WiringSerial.h cũng nằm trong thư mục wiringPi
 - Giao tiếp giữa Raspberry Pi và Dynamixel thông qua cổng UART, nhưng chỉ có một dây tín hiệu cho cả đường truyền và nhận.
 Để thực hiện điều này cần xây dựng một mạch nhỏ chuyển đổi song công hoàn toàn thành bán song công.
 - Sử dụng IC 74HC126 và 74HC125
-<img src="https://imgur.com/a/XTEBqUV">
+<img src="https://imgur.com/7RktWcv">
