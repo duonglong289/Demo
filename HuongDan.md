@@ -32,4 +32,4 @@ Note : Thư viện WiringSerial.h cũng nằm trong thư mục wiringPi
 - Sử dụng IC 74HC126 và 74HC125 (hoặc 74HC04)
 <img src="https://i.imgur.com/7RktWcv.jpg">
 
-[Github](https://github.com/duonglong289/Demo/blob/master/HuongDan.md)
+[Huongdan](https://github.com/duonglong289/Demo/blob/master/HuongDan.md)
