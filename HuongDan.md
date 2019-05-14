@@ -1,6 +1,6 @@
 Hướng dẫn cài đặt :
 
-**1. Cài đặt thư viện trên Raspberry Pi:**
+1. Cài đặt thư viện trên Raspberry Pi:
 Bước 1: Kiểm tra thư viện đã cài đặt hay chưa. Mở Terminal gõ lệnh :
 	$ gpio -v
 Nếu thư viện đã được cài đặt sẽ được hiện thông báo. Nếu chưa cài đặt, thực hiện các bước tiếp theo.
