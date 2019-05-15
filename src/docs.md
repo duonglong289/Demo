@@ -1,4 +1,4 @@
-##Mx12()##
+## Mx12() ##
 
 Constructor này mở cổng giao tiếp UART từ Raspberry Pi tới Dynamixel với baudrate = 1000000. 
 
