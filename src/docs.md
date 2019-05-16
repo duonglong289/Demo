@@ -67,8 +67,8 @@ This value decides how to return Status Packet when Dynamixel receives an Instru
 |Value|Responding Instructions|Description|
 |-----|-----------------------|-----------|
 |0|PING Instruction|Status Packet will not be returned for all Instructions|
-|1|PING Instruction|Status Packet will be returned only for READ Instruction|
-||READ Instruction||
+|1|PING Instruction 
+READ Instruction|Status Packet will be returned only for READ Instruction|
 |2|All Instructions|Status Packet will be returned for all Instructions|
 	
 		
