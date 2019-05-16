@@ -6,6 +6,7 @@
 
 - Setup GPIO
 
+----
 
 ## readData(int id) ##
 
@@ -13,11 +14,15 @@ Read the value from Status Packet of the Dynamixel
 
 >id : id of the Dynamixel
 
+----
+
 ## ping(int id) ##
 
 Instruction to check the existence of a Device and basic information
 Regardless of the Status Return Level of the Device, the Status Packet is always sent to Ping Instruction.
 When the Packet ID field is 0xFE(Broadcast ID) : All devices send their Status Packet according to their arranged order.
+
+----
 
 ## factoryReset (int id, bool confirm) ##
 
@@ -26,11 +31,15 @@ In case of when Packet ID is a Broadcast ID 0xFE and Option is Reset All 0xFF, F
 	
 >confirm : confirm reset the Control Table
 
+----
+
 ## setID (int id, int newID) ##
 
 Set new ID for the Dynamixel
 
 >newID: new id of the Dynamixel
+
+----
 
 ## setBaudRate(int id, int baudRate) ##
 
@@ -51,6 +60,8 @@ Speed(BPS)  = 2000000/(Data+1)
 |103|19230.8|19200.0|-0.160%|
 |207|9615.4|9600.0|-0.160%|
 
+----
+
 ## setStatusReturnLevel (int id, int Level) ##
 
 This value decides how to return Status Packet when Dynamixel receives an Instruction Packet.
@@ -66,6 +77,8 @@ NOTE : If the ID of Instruction Packet is set to Broad Cast ID(0xFE), Status Pac
 
 >Level : level of Status Packet 
 
+----
+
 ## setReturnDelayTime(int id, int delay) ##
 
 After the DYNAMIXEL receives an Instruction Packet, it delays transmitting the Status Packet for Return Delay Time(5). 
@@ -73,11 +86,15 @@ For instance, if the Return Delay Time(5) is set to ‘10’, the Status Packet 
 
 >delay: delay time
 
+----
+
 ## lockRegister(int id) ##
 
 EEPROM area cannot be modified
 
 	CAUTION : If Lock is set to 1, the power must be turned off and then turned on again to change into 0.
+
+----
 
 ## move(int id, long position) ##
 
@@ -85,25 +102,35 @@ Moving Servo with default speed to new Position
 
 >position : value of new position
 
+----
+
 ## moveSpeed(int id, long position, long speed) ##
 
 Moving Servo with specific speed
 
 >speed : value of the speed
 
+----
+
 ## moveRW(int id, long position) ##
 
 REG_WRITE : Moving Servo with default speed
 
+----
+
 ## moveSpeedRW(int id, long position, long speed) ##
 
 REG_WRITE : Moving Servo with specific speed
+
+----
 
 ## action() ##
 
 Instruction that executes the Packet that has been registered using Reg Write Instruction
 When controlling multiple devices using Write Instruction, there will be a difference in the time of execution 
 between the first device that receives the Packet and the last device that receives the Packet.
+
+----
 
 ## setPGain(int id, int p) ##
 
@@ -112,12 +139,16 @@ between the first device that receives the Packet and the last device that recei
 
 >p: value of proportional band. Gains values are in between 0 ~ 254.
 
+----
+
 ## setIGain(int id, int i) ##
 
 Set I gain.
 Ki = I Gain * 1,000 / 2,048
 
 >i :  value of integral action. Gains values are in between 0 ~ 254.
+
+----
 
 ## setDGain(int id, int d) ##
 
@@ -126,10 +157,13 @@ Kd = D Gain * 4 / 1,000
 
 >d :  value of derivative action. Gains values are in between 0 ~ 254.
 
+----
 
 ## readPosition(int id) ##
 
 Return the present position value of Dynamixel. The range of the value is 0~4095 (0xFFF), and the unit is 0.088 [°].
+
+----
 
 ## readSpeed(int id) ##
 
@@ -138,6 +172,7 @@ If a value is in the rage of 0~1023 then the motor rotates to the CCW direction.
 If a value is in the rage of 1024~2047 then the motor rotates to the CW direction. 
 The 10th bit becomes the direction bit to control the direction; 0 and 1024 are equal. The value unit is about 0.916rpm.
 
+----
 
 ## readMovingStatus(int id) ##
 
@@ -146,6 +181,8 @@ Return value :
 >0: Goal position command execution is completed
 	
 >1: Goal position command execution is in progress
+
+----
 
 ## readRWStatus(int id) ##
 

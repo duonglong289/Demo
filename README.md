@@ -2,9 +2,9 @@
 	
 This library is used to drive "Smart Servo" device like Dynamixel actuators:
 
-	+ UART - Serial Port adapter
+>+ UART - Serial Port adapter
 
-	+ C++ Compiler
+>+ C++ Compiler
 
 ** 2. Documentation **
 	
@@ -14,6 +14,6 @@ http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/
 	
 ** 3. Setup library and hardware **
 
-[Setup](Documentation/HuongDan.md)
+[Setup](Documentation/setup.md)
 
 TO-DO:
