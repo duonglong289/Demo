@@ -12,7 +12,7 @@ http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/
 	
 **3. Hướng dẫn cài đặt thư viện và cấu hình phần cứng**
 
-[HuongDan.md](https://github.com/duonglong289/Demo/blob/master/HuongDan.md)
+[HuongDan.md](Documentation/HuongDan.md)
 
 **4. **
 TO-DO:

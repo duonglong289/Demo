@@ -27,7 +27,8 @@ Thiết lập lại Control Table, tất cả các giá trị thanh ghi sẽ đ�
 
 Thiết lập Baud rate cho giao tiếp giữa Raspberry Pi và Dynamixel
 
-## setStatusReturnLevel (int id, int Level)
+## setStatusReturnLevel (int id, int Level) ##
+
 
 
 
