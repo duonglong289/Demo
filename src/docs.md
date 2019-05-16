@@ -63,6 +63,7 @@ Set the baudrate for Serial communication
 ## setStatusReturnLevel (int id, int Level) ##
 
 This value decides how to return Status Packet when Dynamixel receives an Instruction Packet.
+
 	|Value|Responding Instructions|Description|
 	|-----|-----------------------|-----------|
 	|0|PING Instruction|Status Packet will not be returned for all Instructions|
