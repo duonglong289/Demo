@@ -8,9 +8,10 @@ This library is used to drive "Smart Servo" device like Dynamixel MX-12W actuato
 
 **2. Documentation**
 	
-http://emanual.robotis.com/
+[Protocol](http://emanual.robotis.com/)
 	
-http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/
+[MX-12W](http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/)
+
 	
 **3. Setup library and hardware**
 
