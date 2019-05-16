@@ -18,3 +18,5 @@ http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/
 
 
 **TO-DO:**
+
+Fix the readData() function because it can not receive full Status Packet
