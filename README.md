@@ -1,4 +1,4 @@
-** 1. Introduction **
+**1. Introduction**
 	
 This library is used to drive "Smart Servo" device like Dynamixel actuators:
 
@@ -6,13 +6,13 @@ This library is used to drive "Smart Servo" device like Dynamixel actuators:
 
 >+ C++ Compiler
 
-** 2. Documentation **
+**2. Documentation**
 	
 http://emanual.robotis.com/
 	
 http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/
 	
-** 3. Setup library and hardware **
+**3. Setup library and hardware**
 
 [Setup](Documentation/setup.md)
 
