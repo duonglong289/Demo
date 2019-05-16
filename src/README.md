@@ -45,7 +45,8 @@ Set new ID for the Dynamixel
 
 Set the baudrate for Serial communication
 
->baudrate: This speed is calculated by using the below formula
+>baudrate: This speed is calculated by using the below formula:
+
 Speed(BPS)  = 2000000/(Data+1)
 
 | Data | Set BPS | Target BPS | Tolerance |
