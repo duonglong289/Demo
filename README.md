@@ -1,6 +1,6 @@
 **1. Introduction**
 	
-This library is used to drive "Smart Servo" device like Dynamixel actuators:
+This library is used to drive "Smart Servo" device like Dynamixel MX-12W actuators with:
 
 >+ UART - Serial Port adapter
 
