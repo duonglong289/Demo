@@ -16,4 +16,5 @@ http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/
 
 [Setup](Documentation/setup.md)
 
-TO-DO:
+
+**TO-DO:**
