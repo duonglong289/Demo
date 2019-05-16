@@ -1,18 +1,19 @@
-**1. Giới thiệu chung:**
-
-Thư viện điều khiển Smart Servo MX-12W sử dụng Raspberry Pi:
-	+ Giao tiếp thông qua cổng UART
-	+ Sử dụng thư viện C/C++ của Raspberry Pi	
+** 1. Introduction **
 	
-**2. Tài liệu tham khảo:**
+This library is used to drive "Smart Servo" device like Dynamixel actuators:
+
+	+ UART - Serial Port adapter
+
+	+ C++ Compiler
+
+** 2. Documentation **
 	
 http://emanual.robotis.com/
 	
 http://emanual.robotis.com/docs/en/dxl/mx/mx-12w/
 	
-**3. Hướng dẫn cài đặt thư viện và cấu hình phần cứng**
+** 3. Setup library and hardware **
 
-[HuongDan.md](Documentation/HuongDan.md)
+[Setup](Documentation/HuongDan.md)
 
-**4. **
 TO-DO:
