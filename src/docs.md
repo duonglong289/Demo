@@ -62,3 +62,17 @@ Set the baudrate for Serial communication
 
 ## setStatusReturnLevel (int id, int Level) ##
 
+This value decides how to return Status Packet when Dynamixel receives an Instruction Packet.
+	|Value|Responding Instructions|Description|
+	|-----|-----------------------|-----------|
+	|0|PING Instruction|Status Packet will not be returned for all Instructions|
+	|1|PING Instruction|Status Packet will be returned only for READ Instruction|
+	||READ Instruction||
+	|2|All Instructions|Status Packet will be returned for all Instructions|
+	
+		
+NOTE : If the ID of Instruction Packet is set to Broad Cast ID(0xFE), Status Packet will not be returned for READ and WRITE Instructions regardless of Status Return Level.
+	
+	id : current id of the Dynamixel
+
+	Level : level of 
